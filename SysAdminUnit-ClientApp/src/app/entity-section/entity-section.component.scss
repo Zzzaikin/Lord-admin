@@ -1,16 +1,16 @@
 .entity-label {
     font-size: 26px;
-    color: #707479;
+    color: #B5BBC2;
+    background-color: #4D5B96;
+}
+
+.section {
     background-color: #EFF1F4;
+    padding: 25px 25px 25px 25px;
 }
 
 .entity-content {
     margin-top: 2vh;
-}
-
-.loaded-entity {
-    background-color: #EFF1F4;
-    padding: 25px 25px 25px 25px;
 }
 
 .loading-container {

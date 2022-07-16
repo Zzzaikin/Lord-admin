@@ -1,20 +1,20 @@
+$border-cell-width: 5px;
+
 .table {
     width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #dddddd;
     border-collapse: collapse;
     display: table;
 }
 
 .table .head {
     font-weight: bold;
-    padding: 5px;
     background: #DDDFEB;
     border: 1px solid #dddddd;
     font-weight: 300;
     font-size: 26px;
     color: #808080;
-    padding: 10px 0px 10px 10px;
+    border-color: #DDDFEB;
+    border-width: $border-cell-width;
 }
 
 .table .cell {
@@ -27,8 +27,8 @@
     padding: 10px 0px 10px 10px;
     border-top-color: #DDDFEB;
     border-top-width: 3px;
-    border-right-color: #DDDFEB;
-    border-right-width: 3px;
+    border-color: #DDDFEB;
+    border-width: $border-cell-width;
     transition: 0.5s;
     display: table-cell;
 }
@@ -43,5 +43,9 @@
 
 .table .head-caption {
     display: table-cell;
+    padding-left: 3px;
 }
 
+.table .table-body {
+    width: 100%;
+}

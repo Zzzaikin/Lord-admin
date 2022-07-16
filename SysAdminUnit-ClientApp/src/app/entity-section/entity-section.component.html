@@ -1,26 +1,28 @@
-<div class="entity-label">
-    <div style="padding-left: 20px;">
-        Объекты администрирования
-    </div>
-</div>
-<div class="entity-content">
-    <div *ngIf="isLoading" class="loading-container">
-        <div id="fountainG">
-            <div id="fountainG_1" class="fountainG"></div>
-            <div id="fountainG_2" class="fountainG"></div>
-            <div id="fountainG_3" class="fountainG"></div>
-            <div id="fountainG_4" class="fountainG"></div>
-            <div id="fountainG_5" class="fountainG"></div>
-            <div id="fountainG_6" class="fountainG"></div>
-            <div id="fountainG_7" class="fountainG"></div>
-            <div id="fountainG_8" class="fountainG"></div>
+<div class="section">
+    <div class="entity-label">
+        <div style="padding-left: 20px;">
+            Объекты администрирования
         </div>
     </div>
-    <div *ngIf="!isLoading && loadedSucced" class="loaded-entity">
-        <entities-table [entities]="entities"></entities-table>
-    </div>
-    <div *ngIf="loadedSucced === false" class="loaded-fail-container">
-        <div class="loaded-fail-label">Ошибка при загрузке данных</div>
-        <div (click)="onRepeatClick()" class="repeat">Попробовать ещё раз...</div>
+    <div class="entity-content">
+        <div *ngIf="isLoading" class="loading-container">
+            <div id="fountainG">
+                <div id="fountainG_1" class="fountainG"></div>
+                <div id="fountainG_2" class="fountainG"></div>
+                <div id="fountainG_3" class="fountainG"></div>
+                <div id="fountainG_4" class="fountainG"></div>
+                <div id="fountainG_5" class="fountainG"></div>
+                <div id="fountainG_6" class="fountainG"></div>
+                <div id="fountainG_7" class="fountainG"></div>
+                <div id="fountainG_8" class="fountainG"></div>
+            </div>
+        </div>
+        <div *ngIf="!isLoading && loadedSucced">
+            <entities-table [entities]="entities"></entities-table>
+        </div>
+        <div *ngIf="loadedSucced === false" class="loaded-fail-container">
+            <div class="loaded-fail-label">Ошибка при загрузке данных</div>
+            <div (click)="onRepeatClick()" class="repeat">Попробовать ещё раз...</div>
+        </div>
     </div>
 </div>
