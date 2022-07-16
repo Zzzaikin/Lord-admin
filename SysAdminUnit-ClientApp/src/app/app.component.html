@@ -1,0 +1,6 @@
+<div class="wrapper">
+    <nav-menu (navStateChanged)="onNavStateChanged($event)"></nav-menu>
+    <div [class]="ContentClassName">
+        <router-outlet></router-outlet>
+    </div>
+</div>

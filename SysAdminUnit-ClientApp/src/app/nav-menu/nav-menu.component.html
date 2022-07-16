@@ -1,0 +1,12 @@
+<div [class]="navClassName">
+    <div class="nav-label">Zzzaikin</div>
+    <nav-menu-item #navItemWeather (click)="onNavItemClick(navItemWeather)" text="Погода"
+        iconSrc="assets/images/Weather.ico" routerLink="/Weather" routerLinkActive="active">
+    </nav-menu-item>
+    <nav-menu-item #navItemSysAdminUnits (click)="onNavItemClick(navItemSysAdminUnits)" text="Объекты администрирования"
+        iconSrc="assets/images/SysAdminUnits.ico" routerLink="/SysAdminUnitSection" routerLinkActive="active">
+    </nav-menu-item>
+    <nav-menu-item #navItemGeolocation (click)="onNavItemClick(navItemGeolocation)" text="Моя геолокация"
+        iconSrc="assets/images/Geolocation.ico" routerLink="/Geolocation" routerLinkActive="active"></nav-menu-item>
+    <button type="button" [class]="switchButtonStyle" (click)="switchHideMode()">{{switchButtonText}}</button>
+</div>

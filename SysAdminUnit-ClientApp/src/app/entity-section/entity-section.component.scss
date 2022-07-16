@@ -1,0 +1,213 @@
+.entity-label {
+    font-size: 26px;
+    color: #707479;
+    background-color: #EFF1F4;
+}
+
+.entity-content {
+    margin-top: 2vh;
+}
+
+.loaded-entity {
+    background-color: #EFF1F4;
+    padding: 25px 25px 25px 25px;
+}
+
+.loading-container {
+    margin-top: 25%;
+}
+
+#fountainG {
+    position: relative;
+    width: 168px;
+    height: 20px;
+    margin: auto;
+}
+
+.fountainG {
+    position: absolute;
+    top: 0;
+    background-color: rgba(30, 37, 66, 0.8);
+    width: 20px;
+    height: 20px;
+    animation-name: bounce_fountainG;
+    -o-animation-name: bounce_fountainG;
+    -ms-animation-name: bounce_fountainG;
+    -webkit-animation-name: bounce_fountainG;
+    -moz-animation-name: bounce_fountainG;
+    animation-duration: 0.715s;
+    -o-animation-duration: 0.715s;
+    -ms-animation-duration: 0.715s;
+    -webkit-animation-duration: 0.715s;
+    -moz-animation-duration: 0.715s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: normal;
+    -o-animation-direction: normal;
+    -ms-animation-direction: normal;
+    -webkit-animation-direction: normal;
+    -moz-animation-direction: normal;
+    transform: scale(.3);
+    -o-transform: scale(.3);
+    -ms-transform: scale(.3);
+    -webkit-transform: scale(.3);
+    -moz-transform: scale(.3);
+    border-radius: 13px;
+    -o-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+}
+
+#fountainG_1 {
+    left: 0;
+    animation-delay: 0.286s;
+    -o-animation-delay: 0.286s;
+    -ms-animation-delay: 0.286s;
+    -webkit-animation-delay: 0.286s;
+    -moz-animation-delay: 0.286s;
+}
+
+#fountainG_2 {
+    left: 21px;
+    animation-delay: 0.3525s;
+    -o-animation-delay: 0.3525s;
+    -ms-animation-delay: 0.3525s;
+    -webkit-animation-delay: 0.3525s;
+    -moz-animation-delay: 0.3525s;
+}
+
+#fountainG_3 {
+    left: 42px;
+    animation-delay: 0.429s;
+    -o-animation-delay: 0.429s;
+    -ms-animation-delay: 0.429s;
+    -webkit-animation-delay: 0.429s;
+    -moz-animation-delay: 0.429s;
+}
+
+#fountainG_4 {
+    left: 63px;
+    animation-delay: 0.4955s;
+    -o-animation-delay: 0.4955s;
+    -ms-animation-delay: 0.4955s;
+    -webkit-animation-delay: 0.4955s;
+    -moz-animation-delay: 0.4955s;
+}
+
+#fountainG_5 {
+    left: 84px;
+    animation-delay: 0.572s;
+    -o-animation-delay: 0.572s;
+    -ms-animation-delay: 0.572s;
+    -webkit-animation-delay: 0.572s;
+    -moz-animation-delay: 0.572s;
+}
+
+#fountainG_6 {
+    left: 105px;
+    animation-delay: 0.6385s;
+    -o-animation-delay: 0.6385s;
+    -ms-animation-delay: 0.6385s;
+    -webkit-animation-delay: 0.6385s;
+    -moz-animation-delay: 0.6385s;
+}
+
+#fountainG_7 {
+    left: 126px;
+    animation-delay: 0.715s;
+    -o-animation-delay: 0.715s;
+    -ms-animation-delay: 0.715s;
+    -webkit-animation-delay: 0.715s;
+    -moz-animation-delay: 0.715s;
+}
+
+#fountainG_8 {
+    left: 147px;
+    animation-delay: 0.7815s;
+    -o-animation-delay: 0.7815s;
+    -ms-animation-delay: 0.7815s;
+    -webkit-animation-delay: 0.7815s;
+    -moz-animation-delay: 0.7815s;
+}
+
+
+
+@keyframes bounce_fountainG {
+    0% {
+        transform: scale(1);
+        background-color: rgba(30, 37, 66, 0.93);
+    }
+
+    100% {
+        transform: scale(.3);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-o-keyframes bounce_fountainG {
+    0% {
+        -o-transform: scale(1);
+        background-color: rgba(30, 37, 66, 0.93);
+    }
+
+    100% {
+        -o-transform: scale(.3);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-ms-keyframes bounce_fountainG {
+    0% {
+        -ms-transform: scale(1);
+        background-color: rgba(30, 37, 66, 0.93);
+    }
+
+    100% {
+        -ms-transform: scale(.3);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-webkit-keyframes bounce_fountainG {
+    0% {
+        -webkit-transform: scale(1);
+        background-color: rgba(30, 37, 66, 0.93);
+    }
+
+    100% {
+        -webkit-transform: scale(.3);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-moz-keyframes bounce_fountainG {
+    0% {
+        -moz-transform: scale(1);
+        background-color: rgba(30, 37, 66, 0.93);
+    }
+
+    100% {
+        -moz-transform: scale(.3);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.loaded-fail-label {
+    color: #707479;
+}
+
+.loaded-fail-container {
+    margin-left: 40%;
+    margin-top: 25%;
+}
+
+.repeat {
+    text-decoration: underline;
+    color: #acb1ba;
+    cursor: pointer;
+    margin-left: 23px;
+}

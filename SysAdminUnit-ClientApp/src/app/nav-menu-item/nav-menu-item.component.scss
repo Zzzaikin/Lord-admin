@@ -1,0 +1,43 @@
+.nav-item {
+    width: 230px;
+    display: flex;
+    background-color: #303A64;
+    align-items: center;
+    border-color: #1E2542;
+    border-top-color: #808080;
+    border-top-style: solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-image {
+    width: 30px;
+    height: 20px;
+    padding: 30px 10px 20px 10px;
+    box-sizing: content-box;
+
+    img {
+        max-width: 30px;
+        max-height: 25px;
+    }
+}
+
+.nav-text {
+    color: #B5BBC2;
+    padding: 25px 0px 20px 0px;
+    float: left;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #4D5B96;
+}
+
+.clicked {
+    height: 115px;
+    background-color: #4D5B96;
+
+    .nav-text {
+        font-size: 16px;
+    }
+}

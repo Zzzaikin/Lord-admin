@@ -1,0 +1,43 @@
+.nav-wrapper {
+    height: 100vh;
+    font-size: 15px;
+    background-color: #1E2542;
+    position: relative;
+    transition: 0.5s;
+    left: 0vh;
+    position: fixed;
+}
+
+.nav-label {
+    font-size: 38px;
+    color: #BCC3CB;
+    padding-left: 20px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.nav-switch-button {
+    font-size: 30px;
+    height: 55px;
+    color: #BCC3CB;
+    position: absolute;
+    bottom: 0;
+    margin-left: 175px;
+    background-color: #1E2542;
+    transition: 0.5s;
+    left: 0vh;
+}
+
+.nav-is-hidded {
+    left: -240px;
+    transition: 0.5s;
+}
+
+.nav-switch-button-is-hidded {
+    left: 70px;
+    transition: 0.5s;
+}
+
+.nav-switch-button:hover {
+    background-color: #4D5B96;
+}

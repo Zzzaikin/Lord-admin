@@ -1,0 +1,16 @@
+<div class="table">
+    <div class="head">
+        <div class="row">
+            <div class="head-caption" *ngFor="let columnsCaption of columnsCaptions">
+                {{ columnsCaption }}
+            </div>
+        </div>
+    </div>
+    <div class="table-body">
+        <div class="row" *ngFor="let entity of entities" id={{entity.id}} (click)="onRowClick($event)">
+            <div class="cell" *ngFor="let displayColumn of displayColumns index as i">
+                {{getColumnValue(entity, displayColumn)}}
+            </div>
+        </div>
+    </div>
+</div>
